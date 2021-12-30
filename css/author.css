@@ -1,0 +1,72 @@
+/* START-author info */
+/* table.info>tr {
+    padding: 35pt;
+} */
+div.responsive-table {
+    overflow-x: auto;
+}
+table.info {
+    margin-top: 8pt;
+    border-spacing: 0;
+}
+table.info td,table.info th  {
+    padding-left: 5pt;
+    border: 1px solid black;
+}
+table.info tr th {
+    text-align: justify;
+    /* margin-right: 15pt; */
+    padding-right: 15pt;
+    width: 25%;
+}
+
+/* END-author info */
+
+/* table>tr>th { */
+table th {
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: top;
+}
+/* table img {
+    float: left;
+} */ /* WHY NOT WORK */
+img.authorImg {
+    float: right;
+    /* height: 100%; */
+    /* width: 23vh; */
+    width: 13vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* START - tutorial section */
+caption {
+    font-size: x-large;
+    /* font-weight: bolder !important; */
+}
+hr {
+    margin-top: 10pt;
+}
+table.tutorial {
+    margin-top: 25pt;
+    border-spacing: 0; 
+    /* SAME AS initial */
+}
+
+table.tutorial tr th {
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+}
+table.tutorial th, table.tutorial td {
+    border: 1.5px solid black;
+}
+table.tutorial td img {
+    width: 100%; 
+    height: auto;
+}
+.desc-text {
+    padding-bottom: 15pt;
+}
+/* END - tutorial section */

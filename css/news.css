@@ -1,0 +1,32 @@
+div.responsive-table {
+    overflow-x: auto;
+}
+table {
+    /* border: 1px solid black; */
+    border-spacing: 0;
+    margin-bottom: 25pt;
+}
+table img {
+    width: 100%;
+    height: auto;
+}
+
+table tr td, th {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid black;
+}
+table tr td {
+text-align: justify;
+}
+
+/* td strong {
+    text-align: center;
+} */
+i {
+    font-size: small;
+}
+
+tr.content {
+    vertical-align: top;
+}

@@ -1,0 +1,79 @@
+.ex1 p{color:black;
+        font-size:150%;
+        /* text-align:center; */
+    }
+    .ex1 h1{color:black; 
+            /* text-align:center; */
+        }
+    dd a:hover, dd a:active {
+    font-size: large;
+    /* color:yellow;
+    background: purple;
+    opacity:1; */
+    transition: 0.3s;
+    }
+
+/*  */
+li {
+    /* text-decoration: none; */
+    list-style: auto;
+}
+ol {
+    margin-left: 15pt;
+}
+
+dd {
+    margin-left: 15pt;
+}
+dl {
+    margin-bottom: 15pt;
+}
+
+/* btn */
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff !important;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+/* #down {
+    font-size: larger;
+} */
+.button a {
+    color: white;
+}
+
+/* sharethis-inline-share-buttons */
+.sharethis-inline-share-buttons {
+    margin-top: 45pt;
+    padding-bottom: 15pt;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow-x: auto !important;
+}
+.sharethis-inline-share-buttons div {
+    width: 15%;
+    /* margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important; */
+    margin: 0.5vw;
+    background-color: green;
+}
+/* /sharethis-inline-share-buttons */
