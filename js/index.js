@@ -1,13 +1,13 @@
 menu.onclick = function functionName() {
   var x = document.getElementById("myTopnav");
-  x.className += " active";
+//   x.className += " active";
 
-  // if(x.className === "topnav"){
-  //   x.className += " responsive";
-  // }
-  // else{
-  //   x.className = "topnav";
-  // }
+  if(x.className === "topnav"){
+    x.className += " responsive";
+  }
+  else{
+    x.className = "topnav";
+  }
 }
 
 // <!-- Back To Top -->
