@@ -3,7 +3,7 @@ body {
     background-color: transparent !important;
 }
 html { 
-    background: url("../img/timeline/EM-happy.png") no-repeat center center fixed; 
+    background: url("img/timeline/EM-happy.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -203,8 +203,8 @@ ul.ul2 li { list-style-type: circle; }
 ul.ul2 li { list-style-type: square; }
 /* ul.ul3 li { */
     /* list-style-type: initial;  */ /* ??? */
-    /* list-style: square inside url("../img/timeline/sqpurple.gif"); */
-    /* list-style: square inside url("../img/timeline/list-style-icons/rocket1.gif");
+    /* list-style: square inside url("img/timeline/sqpurple.gif"); */
+    /* list-style: square inside url("img/timeline/list-style-icons/rocket1.gif");
     font-size: small; */
 /* } */
 /* ul.ul3 li { list-style: none; }
@@ -215,7 +215,7 @@ ul.ul3>li::before {
     width: 10px;
     margin-right: 2pt;
     vertical-align: initial;
-    background-image: url("../img/timeline/list-style-icons/rocket.png");
+    background-image: url("img/timeline/list-style-icons/rocket.png");
 } */
 
 /* ul.ul4 li { list-style-type: inherit;
@@ -228,7 +228,7 @@ ul.ul3>li::before {
     width: 10px;
     margin-right: 2pt;
     vertical-align: initial;
-    background-image: url("../img/timeline/list-style-icons/rocket.png");
+    background-image: url("img/timeline/list-style-icons/rocket.png");
 } */
 
 /* URL: https://love2dev.com/blog/customize-bulleted-list/ */
@@ -247,7 +247,7 @@ ul.ul4>li:before {
     Block	Transport and Map Symbols */
 
 /* Option 2 */  /* DON'T KNOW WHY NOT WORK */
-/* ul.ul3 li { list-style-image: url("../img/timeline/list-style-icons/rocket.png"); }  */
+/* ul.ul3 li { list-style-image: url("img/timeline/list-style-icons/rocket.png"); }  */
 /* ul.ul3{ 
     margin-left: 40px; 
     list-style:none; 
@@ -256,7 +256,7 @@ ul.ul3>li{
     padding: .3em 0 1em 40px; 
     height: 10pt;
     width: 10pt;
-    background-image: url("../img/timeline/list-style-icons/rocket.png") no-repeat; 
+    background-image: url("img/timeline/list-style-icons/rocket.png") no-repeat; 
 } */
 
 
@@ -270,7 +270,7 @@ ul.ul5>li::before {
     margin-left: -20px; 
     margin-right: 10px; 
     vertical-align: initial;
-    background-image: url("../img/timeline/list-style-icons/sqpurple.gif");
+    background-image: url("img/timeline/list-style-icons/sqpurple.gif");
 }
 
 /* ??? */
