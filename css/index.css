@@ -194,8 +194,8 @@ nav {
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
-    top: 18px;
-    /* -5px, -50px; */
+    top: 18px;    /* -5px, -50px; */
+    background-color: white;
   }
   .topnav.responsive a {
     float: none;
