@@ -12,7 +12,7 @@ table img {
 }
 
 table tr td, th {
-    width: 30%;
+    /* width: 30%; */
     padding: 15px;
     border: 1px solid black;
 }
@@ -29,4 +29,16 @@ i {
 
 tr.content {
     vertical-align: top;
+}
+
+/* nested table */
+table table {
+    margin: 5pt;
+}
+table table tr {
+    height: 250px;
+}
+
+td.img {
+    background-image: url("img/news/news3.webp") cover;
 }

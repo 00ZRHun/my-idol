@@ -12,7 +12,7 @@
     /* white-space: normal; */
     }
     p, dl {
-    font-family: Verdana, sans-serif;
+    font-family: serif, Verdana, sans-serif;
     text-align: justify;
     line-height: 1.2 !important;
     font-size: 1em !important;
@@ -44,7 +44,7 @@ div div img {
     margin-left: 25pt;
 }
 p, dl {
-    font-family: Verdana, sans-serif;
+    font-family: serif, Verdana, sans-serif;
     text-align:justify;
     line-height:1.8;
     font-size:20px;
